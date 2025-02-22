@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/final-value-of-variable-after-performing-operations/
 class Solution:
-    def finalValueAfterOperations(self, operations: List[str]) -> int:
+    def finalValueAfterOperations(operations):
 
         x = 0
         for i in operations:
@@ -9,3 +9,6 @@ class Solution:
             elif i[1] == '+':
                 x += 1
         return x
+
+    operations = ["--X", "X++", "X++"]
+    print(finalValueAfterOperations(operations))
