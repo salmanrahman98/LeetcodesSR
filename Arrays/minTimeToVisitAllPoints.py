@@ -29,7 +29,9 @@ def minTimeToVisitAllPoints(points):
                 break
 
     # using path to calculate the shortest time
+    x1, y1 = path_array.pop(0)
     print(path_array)
+    print(f"{x1},{y1}")
     return len(path_array)-1
 
 

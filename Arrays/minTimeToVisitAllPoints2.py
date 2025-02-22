@@ -16,6 +16,7 @@ def minTimeToVisitAllPoints(points):
             count += x_axis_distance
         else:
             count += y_axis_distance
+        # count += max(abs(i - target_arr[0]), abs(j - target_arr[1]))
 
         i = target_arr[0]
         j = target_arr[1]
