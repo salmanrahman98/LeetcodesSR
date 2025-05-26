@@ -7,8 +7,6 @@ def convert(s, numRows):
     #     for j in range(3):
     #         print(f"[{i}][{j}]", end=" ")
     #     print()
-    while i < 3:
-        while j < 3
 
 
 print(convert("AOFSDOFAOSD", 4))
